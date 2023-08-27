@@ -1,0 +1,59 @@
+/* General settings */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+p {
+  color: rgb(85, 85, 85);
+}
+
+/* transitions */
+a,
+.btn {
+  transition: all 300ms ease;
+}
+
+/* Navigation bar  css*/
+#desktop-nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 17vh;
+  > .logo {
+    font-size: 2rem;
+    &:hover {
+      cursor: default;
+    }
+  }
+  > div > .nav-links {
+    display: flex;
+    gap: 2rem;
+    > li {
+      list-style: none;
+      > a {
+        color: black;
+        text-decoration: none;
+        text-decoration-color: white;
+        font-size: 1.5rem;
+        &:hover {
+          color: gray;
+          text-decoration: underline;
+          text-underline-offset: 1rem;
+          text-decoration-color: rgb(181, 181, 181);
+        }
+      }
+    }
+  }
+}
+
+/* hamburger navigation css */
