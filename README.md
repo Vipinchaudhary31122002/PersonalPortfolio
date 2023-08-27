@@ -1,2 +1,2 @@
 # PersonalPortfolio
-Personal Portfolio is a 3d web developer portfolio
+Personal Portfolio is my  web developer portfolio
