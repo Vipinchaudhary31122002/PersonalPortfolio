@@ -1,0 +1,9 @@
+/* display the hamburger menu for the screen size max upto 1200px and if greater than that it display the desktop navigation bar */
+@media screen and (max-width: 1200px) {
+  #desktop-nav {
+    display: none;
+  }
+  #hamburger-nav {
+    display: flex;
+  }
+}
