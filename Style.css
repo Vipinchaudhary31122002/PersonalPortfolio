@@ -124,11 +124,142 @@ body {
   }
 }
 
-/* Hero section */
-section{
+/* General setting for the section */
+section {
   padding-top: 4vh;
   height: 96vh;
   margin: 0 10rem;
   box-sizing: border-box;
   min-height: fit-content;
+}
+
+/* .section-container{
+  display: flex;
+} */
+
+/* profile section */
+#profile {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  height: 80vh;
+  > .section_pic-container {
+    display: flex;
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+  }
+  > .SectionText {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+    align-self: center;
+    text-align: center;
+    > p {
+      font-weight: 600;
+    }
+    > .SectionTextP1 {
+      text-align: center;
+    }
+    > .SectionTextP2 {
+      font-size: 1.7rem;
+      margin-bottom: 1rem;
+    }
+    > .Title {
+      font-size: 3rem;
+      text-align: center;
+    }
+    > .BtnContainer {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      > .Btn {
+        border: 2px solid black;
+        border-radius: 25px;
+        padding: 1rem;
+        font-size: 1rem;
+        font-weight: 800;
+        transition: all 500ms ease;
+        cursor: pointer;
+        &:hover {
+          background-color: black;
+          color: white;
+        }
+      }
+    }
+    > #SocialContainer {
+      display: flex;
+      justify-content: center;
+      margin-top: 1rem;
+      gap: 1rem;
+      > .Icon {
+        cursor: pointer;
+        height: 2rem;
+      }
+    }
+  }
+}
+
+/* about section  */
+#About {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  > .SectionTextP1 {
+    text-align: center;
+    font-size: larger;
+
+  }
+  > .Title {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 3.5rem;
+    text-align: center;
+  }
+  > .SectionContainer {
+    display: flex;
+    column-gap: 4rem;
+    height: 60%;
+    > .SectionPicContainer > .AboutPic {
+      height: 400px;
+      width: 400px;
+      border-radius: 2rem;
+    }
+    > .AboutDetailContainer {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      row-gap: 1rem;
+      > .AboutContainer {
+        display: flex;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        column-gap: 2rem;
+        > .DetailsContainer {
+          display: flex;
+          flex-direction: column;
+          border: 0.15rem solid black;
+          border-radius: 2rem;
+          align-items: center;
+          flex: 1;
+          padding: 1.5rem;
+          padding: 1rem 3rem 1rem 3rem;
+          > .Icon {
+            height: 3rem;
+            width: 3rem;
+          }
+          > p {
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+  > img {
+    position: absolute;
+    right: -5rem;
+    bottom: 2.5rem;
+    height: 2rem;
+  }
 }
