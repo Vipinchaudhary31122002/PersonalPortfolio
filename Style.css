@@ -132,6 +132,13 @@ section {
   margin: 0 10rem;
   box-sizing: border-box;
   min-height: fit-content;
+  position: relative;
+  > img {
+    position: absolute;
+    right: -5rem;
+    bottom: 2.5rem;
+    height: 2rem;
+  }
 }
 
 /* profile section */
@@ -201,7 +208,6 @@ section {
 #About {
   display: flex;
   flex-direction: column;
-  position: relative;
   align-items: center;
   > .SectionTextP1 {
     text-align: center;
@@ -253,12 +259,7 @@ section {
       }
     }
   }
-  > img {
-    position: absolute;
-    right: -5rem;
-    bottom: 2.5rem;
-    height: 2rem;
-  }
+  
 }
 
 /* Styling of Experience section */
@@ -266,7 +267,6 @@ section {
   display: flex;
   align-items: center;
   flex-direction: column;
-  position: relative;
   > .SectionTextP1 {
     text-align: center;
     font-size: larger;
@@ -289,6 +289,7 @@ section {
       align-items: center;
       > h3{
         margin: 1rem;
+        font-size: 2rem;
       }
       > .ListContainer{
         display: flex;
@@ -297,6 +298,15 @@ section {
           display: flex;
           flex-direction: column;
           row-gap: 2rem;
+          > span{
+            display: flex;
+            align-items: center;
+            column-gap: 1rem;
+            > img{
+              height: 2rem;
+              width: 2rem;
+            }
+          }
         }
       }
     }
@@ -308,7 +318,6 @@ section {
   display: flex;
   align-items: center;
   flex-direction: column;
-  position: relative;
   > .SectionTextP1 {
     text-align: center;
     font-size: larger;
@@ -324,12 +333,12 @@ section {
     > .Container{
       border: 2px solid black;
       border-radius: 2rem;
-      padding: 2rem;
+      padding: 1rem;
       display: flex;
       flex-direction: column;
       align-items: center;
       > img{
-        height: 300px;
+        height: 30P0px;
         width: 300px;
         border-radius: 2rem;
       }
@@ -340,7 +349,8 @@ section {
         > button{
           width: 7rem;
           padding: 1rem;
-          border-radius: 1rem;
+          margin: 1rem;
+          border-radius: 3rem;
           background-color: white;
           border: 1px solid black;
           transition: all 300ms ease;
