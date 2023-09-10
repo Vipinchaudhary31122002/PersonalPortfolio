@@ -182,16 +182,6 @@ section {
         }
       }
     }
-    > #SocialContainer {
-      display: flex;
-      justify-content: center;
-      margin-top: 1rem;
-      gap: 1rem;
-      > .Icon {
-        cursor: pointer;
-        height: 2rem;
-      }
-    }
   }
 }
 
@@ -311,12 +301,9 @@ section {
       flex-direction: column;
       align-items: center;
       > img{
-        height: 30P0px;
+        height: 300px;
         width: 300px;
         border-radius: 2rem;
-      }
-      > h3{
-        margin: 1rem;
       }
       > .ButtonContainer{
         > button{
