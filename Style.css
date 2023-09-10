@@ -130,8 +130,6 @@ section {
   padding-top: 4vh;
   height: 96vh;
   margin: 0 10rem;
-  box-sizing: border-box;
-  min-height: fit-content;
   position: relative;
 }
 
@@ -140,7 +138,6 @@ section {
   display: flex;
   justify-content: center;
   gap: 5rem;
-  height: 80vh;
   > .section_pic-container {
     display: flex;
     height: 500px;
@@ -203,10 +200,6 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  > .SectionTextP1 {
-    text-align: center;
-    font-size: larger;
-  }
   > .Title {
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -255,10 +248,6 @@ section {
   display: flex;
   align-items: center;
   flex-direction: column;
-  > .SectionTextP1 {
-    text-align: center;
-    font-size: larger;
-  }
   > .Title {
     padding-top: 1rem;
     padding-bottom: 3rem;
@@ -306,10 +295,6 @@ section {
   display: flex;
   align-items: center;
   flex-direction: column;
-  > .SectionTextP1 {
-    text-align: center;
-    font-size: larger;
-  }
   > .Title {
     padding-bottom: 2rem;
     font-size: 3.5rem;
@@ -360,10 +345,6 @@ section {
   flex-direction: column;
   justify-content: center;
   position: relative;
-  > .SectionTextP1 {
-    text-align: center;
-    font-size: larger;
-  }
   > .Title {
     padding-bottom: 2rem;
     font-size: 3.5rem;
