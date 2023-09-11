@@ -17,7 +17,7 @@
 
 /* media query for size below 767px */
 /* responsive for phones */
-@media (max-width: 425px) {
+@media (min-width: 376) and (max-width: 425px) {
   * {
     flex-direction: column;
   }
@@ -86,7 +86,7 @@
             flex-direction: row;
             justify-content: center;
             column-gap: 0.1rem;
-            >img{
+            > img {
               height: 2rem;
               width: 2rem;
             }
@@ -96,24 +96,24 @@
     }
   }
   /* project style */
-  #Projects{
+  #Projects {
     padding-top: 0;
     height: max-content;
-    > .Title{
+    > .Title {
       padding-bottom: 0.5rem;
     }
-    > .SectionContainer{
+    > .SectionContainer {
       row-gap: 1rem;
-      > .Container{
+      > .Container {
         padding: 0.5rem 1rem 0.5rem 1rem;
-        > img{
+        > img {
           height: 250px;
           width: 350px;
         }
-        > .ButtonContainer{
+        > .ButtonContainer {
           display: flex;
           flex-direction: row;
-          > button{
+          > button {
             margin: 0.5rem;
             width: 9rem;
             display: flex;
@@ -124,24 +124,162 @@
     }
   }
   /* contact style */
-  #Contact{
+  #Contact {
     height: max-content;
-    > .Title{
+    > .Title {
       padding-bottom: 0.5rem;
     }
-    > .SectionContainer{
+    > .SectionContainer {
       display: flex;
       flex-direction: row;
       column-gap: 1rem;
       padding: 1rem;
-      img{
+      img {
         height: 2.5rem;
         width: 2.5rem;
       }
     }
-    > span{
+    > span {
       position: static;
       width: max-content;
+    }
+  }
+}
+
+@media (min-width: 321px) and (max-width: 375) {
+}
+
+/* Media quiery for all the screen of 320px and below */
+@media (max-width: 320px) {
+  * {
+    flex-direction: column;
+  }
+  #desktop-nav {
+    display: none;
+  }
+  section {
+    height: 100vh;
+  }
+  /* profile section */
+  #profile {
+    height: max-content;
+    align-items: center;
+    > .section_pic-container {
+      display: flex;
+      height: 200px;
+      width: 200px;
+      margin: auto 0;
+    }
+    > .SectionText > .SectionTextP2 {
+      font-size: 1.3rem;
+      text-align: center;
+    }
+    > .SectionText > .BtnContainer {
+      align-items: center;
+      flex-direction: row;
+      gap: 0.5rem;
+      > .Btn {
+        padding: 0.5rem 2rem 0.5rem 2rem;
+      }
+    }
+  }
+  /* about section */
+  #About {
+    height: auto;
+    > .Title {
+      padding-bottom: 0.5rem;
+      font-size: 3.5rem;
+    }
+    > .SectionContainer > .AboutDetailContainer > .AboutContainer {
+      row-gap: 1rem;
+      margin-top: 0;
+      margin-bottom: 0;
+      > .DetailsContainer {
+        padding: 1rem 1rem 1rem 1rem;
+      }
+    }
+  }
+  /* experience section */
+  #Experience {
+    height: max-content;
+    > .Title {
+      padding-top: 2rem;
+      padding-bottom: 1rem;
+      font-size: 2.5rem;
+    }
+    > .SectionContainer {
+      row-gap: 2rem;
+      > .Container {
+        padding: 0.25rem;
+        text-align: center;
+        > h3 {
+          margin: 0.3rem;
+        }
+        > .ListContainer {
+          row-gap: 2rem;
+          > .ItemContainer {
+            column-gap: 0.25rem;
+            justify-content: space-between;
+            > span {
+              flex-direction: row;
+              justify-content: center;
+              column-gap: 0.1rem;
+              > img {
+                height: 1.5rem;
+                width: 1.5rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  /* project style */
+  #Projects {
+    height: max-content;
+    > .Title {
+      padding-bottom: 0.5rem;
+    }
+    > .SectionContainer {
+      row-gap: 1rem;
+      > .Container {
+        padding: 0.1rem 0.1rem 0.1rem 0.1rem;
+        > img {
+          height: 250px;
+          width: 250px;
+        }
+        > .ButtonContainer {
+          display: flex;
+          flex-direction: row;
+          > button {
+            margin: 0.25rem;
+            width: 7rem;
+            display: flex;
+            align-items: center;
+          }
+        }
+      }
+    }
+  }
+  /* contact style */
+  #Contact {
+    height: max-content;
+    > .Title {
+      padding-bottom: 0.5rem;
+    }
+    > .SectionContainer {
+      display: flex;
+      flex-direction: row;
+      column-gap: 1rem;
+      padding: 1rem;
+      img {
+        height: 2.5rem;
+        width: 2.5rem;
+      }
+    }
+    > span {
+      position: static;
+      width: min-content;
     }
   }
 }
