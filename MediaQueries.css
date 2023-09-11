@@ -172,6 +172,7 @@
   }
   /* about section */
   #About {
+    height: max-content;
     > .Title {
       padding-bottom: 0.5rem;
       font-size: 3.5rem;
@@ -187,6 +188,7 @@
   }
   /* experience section */
   #Experience {
+    height: max-content;
     > .Title {
       padding-top: 2rem;
       padding-bottom: 1rem;
