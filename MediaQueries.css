@@ -145,12 +145,9 @@
   #desktop-nav {
     display: none;
   }
-  section {
-    height: 100vh;
-  }
   /* profile section */
   #profile {
-    height: max-content;
+    height: fit-content;
     align-items: center;
     > .section_pic-container {
       display: flex;
@@ -172,7 +169,7 @@
   }
   /* about section */
   #About {
-    height: max-content;
+    height: fit-content;
     > .Title {
       padding-bottom: 0.5rem;
       font-size: 3.5rem;
@@ -188,7 +185,7 @@
   }
   /* experience section */
   #Experience {
-    height: max-content;
+    height: fit-content;
     > .Title {
       padding-top: 2rem;
       padding-bottom: 1rem;
@@ -221,7 +218,7 @@
   /* project style */
   #Projects {
     padding-top: 0;
-    height: max-content;
+    height: fit-content;
     > .Title {
       padding-bottom: 0.5rem;
     }
@@ -248,7 +245,7 @@
   }
   /* contact style */
   #Contact {
-    height: max-content;
+    height: fit-content;
     > .Title {
       padding-bottom: 0.5rem;
     }
@@ -257,6 +254,7 @@
       flex-direction: row;
       column-gap: 1rem;
       padding: 1rem;
+      margin: 2rem;
       img {
         height: 2.5rem;
         width: 2.5rem;
@@ -277,12 +275,9 @@
   #desktop-nav {
     display: none;
   }
-  section {
-    height: 100vh;
-  }
   /* profile section */
   #profile {
-    height: max-content;
+    height: fit-content;
     align-items: center;
     > .section_pic-container {
       display: flex;
@@ -305,7 +300,7 @@
   }
   /* about section */
   #About {
-    height: auto;
+    height: fit-content;
     > .Title {
       padding-bottom: 0.5rem;
       font-size: 3.5rem;
@@ -321,7 +316,7 @@
   }
   /* experience section */
   #Experience {
-    height: max-content;
+    height: fit-content;
     > .Title {
       padding-top: 2rem;
       padding-bottom: 1rem;
@@ -356,7 +351,7 @@
   }
   /* project style */
   #Projects {
-    height: max-content;
+    height: fit-content;
     > .Title {
       padding-bottom: 0.5rem;
     }
@@ -383,7 +378,7 @@
   }
   /* contact style */
   #Contact {
-    height: max-content;
+    height: fit-content;
     > .Title {
       padding-bottom: 0.5rem;
     }
@@ -392,6 +387,7 @@
       flex-direction: row;
       column-gap: 1rem;
       padding: 1rem;
+      margin: 2rem;
       img {
         height: 2.5rem;
         width: 2.5rem;
@@ -400,7 +396,7 @@
     > span {
       margin: 1rem;
       position: static;
-      width: 8rem;
+      width: fit-content;
     }
   }
 }
@@ -413,12 +409,9 @@
   #desktop-nav {
     display: none;
   }
-  section {
-    height: 100vh;
-  }
   /* profile section */
   #profile {
-    height: max-content;
+    height: fit-content;
     align-items: center;
     > .section_pic-container {
       display: flex;
@@ -441,7 +434,7 @@
   }
   /* about section */
   #About {
-    height: auto;
+    height: fit-content;
     > .Title {
       padding-bottom: 0.5rem;
       font-size: 3.5rem;
@@ -457,7 +450,7 @@
   }
   /* experience section */
   #Experience {
-    height: max-content;
+    height: fit-content;
     > .Title {
       padding-top: 2rem;
       padding-bottom: 1rem;
@@ -492,7 +485,7 @@
   }
   /* project style */
   #Projects {
-    height: max-content;
+    height: fit-content;
     > .Title {
       padding-bottom: 0.5rem;
     }
@@ -519,7 +512,7 @@
   }
   /* contact style */
   #Contact {
-    height: max-content;
+    height: fit-content;
     > .Title {
       padding-bottom: 0.5rem;
     }
@@ -528,6 +521,7 @@
       flex-direction: row;
       column-gap: 1rem;
       padding: 1rem;
+      margin: 2rem;
       img {
         height: 2.5rem;
         width: 2.5rem;
@@ -535,7 +529,7 @@
     }
     > span {
       position: static;
-      width: min-content;
+      width: fit-content;
     }
   }
 }
